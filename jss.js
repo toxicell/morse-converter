@@ -22,11 +22,8 @@ function encodeMorse() {
    const inputupper = input.toUpperCase();
  
    
-   let result = '';
- 
-   
+   let result = '';  
    for (let i = 0; i < inputupper.length; i++) {
-    
      if (inputupper[i] === ' ') {
        result += ' ';
      } else {
@@ -40,36 +37,3 @@ function encodeMorse() {
  
 
 
-
-
-
-
-
-
-
-
-
-
-
- 
- 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
